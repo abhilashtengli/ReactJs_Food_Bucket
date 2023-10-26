@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "learning react",
   "scripts": {
-    "test": "jest"
+     "start": "npx parcel index.html",
+     "build": "parcel build index.html",
+     "test": "jest"
   },
   "author": "Abhilash tengli",
   "license": "ISC",
