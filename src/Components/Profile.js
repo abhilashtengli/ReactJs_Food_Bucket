@@ -2,8 +2,8 @@ import abhipc from "../Images/abhipc.jpg";
 import github from "../Images/github.png";
 import linkedin from "../Images/linkedin.png";
 import { Link } from "react-router-dom";
-import { linkedin_URL } from "./config";
-import { github_URL } from "./config";
+import { linkedin_URL } from "./Config";
+import { github_URL } from "./Config";
 
 const Profile = () => {
   return (
