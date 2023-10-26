@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import { Swiggy_menu_API } from "../config";
-import { MENU_ITEM_TYPE_KEY } from "../config";
-import { RESTAURANT_TYPE_KEY } from "../config";
+import { Swiggy_menu_API } from "../Config";
+import { MENU_ITEM_TYPE_KEY } from "../Config";
+import { RESTAURANT_TYPE_KEY } from "../Config";
 
 const useRestraunt = (restrauntId) => {
   const [restraunt, setRestraunt] = useState(null);
