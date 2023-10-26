@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import thali from "../Images/thali.jpg";
-import { linkedin_URL } from "./config";
+import { linkedin_URL } from "./Config";
 
 const About = () => {
   return (
