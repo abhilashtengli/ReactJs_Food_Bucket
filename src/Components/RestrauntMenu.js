@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { IMG_CDN_URL, ITEM_IMG_CDN_URL } from "./config";
+import { IMG_CDN_URL, ITEM_IMG_CDN_URL } from "./Config";
 import { Shimmer } from "./Shimmer";
 import useRestraunt from "./CustomHooks/useRestraunt";
 import { useDispatch } from "react-redux";
