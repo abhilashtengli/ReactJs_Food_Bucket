@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { ITEM_IMG_CDN_URL } from "./config";
+import { ITEM_IMG_CDN_URL } from "./Config";
 import { removeItem } from "../utils/cartSlice";
 
 const FoodItems = ({ name, description, imageId, price, id }) => {
