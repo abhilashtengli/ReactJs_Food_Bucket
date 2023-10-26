@@ -4,6 +4,7 @@ import linkedin from "../Images/linkedin.png";
 import { Link } from "react-router-dom";
 import { linkedin_URL } from "./Config";
 import { github_URL } from "./Config";
+import { Food_Bucket_GitHub_Url } from "./Config";
 
 const Profile = () => {
   return (
@@ -46,7 +47,7 @@ const Profile = () => {
             </Link>
 
             <h1 className="border m-3 text-green-900 font-bold p-1 bg-green-200 rounded-md">
-              <Link>Food Bucket GitHub Repo</Link>
+              <Link to={Food_Bucket_GitHub_Url}>Food Bucket GitHub Repo</Link>
             </h1>
           </div>
         </div>
